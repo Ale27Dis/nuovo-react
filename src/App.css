@@ -1,0 +1,77 @@
+nav {
+  margin-left: 0px;
+  margin-right: 0px;
+  background-color: #111;
+  padding: 0.4rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* Permette ai pulsanti di andare a capo se necessario */
+}
+
+nav ul li {
+  margin: 0.5rem; /* Riduce il margine per adattarsi meglio agli schermi piccoli */
+}
+
+nav ul li button {
+  background: none;
+  border: 1px solid #c5c6da;
+  color: #c5c6da;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  flex: 1 1 auto; /* Permette ai pulsanti di ridimensionarsi */
+}
+
+nav ul li button:hover {
+  background-color: #c5c6da;
+  color: black;
+}
+
+
+
+.responsive-image { 
+  width: 100%; 
+  height: auto; 
+  display: block; 
+  margin: 35px auto; 
+  max-width: 500px; /* Puoi cambiare questo valore in base alle tue esigenze */ 
+  max-height: 300px; /* Imposta l'altezza massima desiderata */ 
+} 
+ 
+#root { 
+  max-width: 1280px; 
+  margin: 0 auto; 
+  padding: 2rem; 
+  text-align: center; 
+} 
+ 
+.card { 
+  padding: 2em; 
+} 
+ 
+.read-the-docs { 
+  color: #888; 
+} 
+ 
+footer { 
+  background-color: #111; 
+  color: white; 
+  text-align: center; 
+  padding: 0.2rem 0;/* Riduce l'altezza del footer */ 
+  position: fixed; 
+  width: 100%; 
+  bottom: 0; 
+  left: 0; /* Assicura che il footer sia attaccato a sinistra */ 
+  margin: 0; /* Rimuove eventuali margini */ 
+}
+
